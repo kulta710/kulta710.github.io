@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 7em 3em 1fr;
+  grid-gap: 0.5em;
+}
+
+header {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background: lightgrey;
+  padding: 0.5em;
+}
+
+nav {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background: lightgrey;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav>ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav>ul>li {
+  list-style: none;
+  margin-right: 2em;
+  font-size: 1.5em;
+}
+
+nav>ul>li:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background: lightgrey;
+  padding: 0.5em;
+}
+
+.branch-box {
+  padding: 1em;
+}
+
+.branch-box a {
+  display: block;
+}

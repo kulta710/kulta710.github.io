@@ -1,0 +1,132 @@
+{
+  "type": "branch",
+  "title": "root-branch",
+  "items": [
+    {
+      "type": "branch",
+      "title": "javascript",
+      "items": [
+        {
+          "type": "branch",
+          "title": "react",
+          "items": [
+            {
+              "type": "item",
+              "title": "net-ninja-full-modern-react-tutorial",
+              "url": "https://github.com/kulta710/net-ninja-full-modern-react-tutorial",
+              "check": true
+            },
+            {
+              "type": "item",
+              "title": "net-ninja-react-context-and-hooks-tutorial",
+              "url": "https://github.com/kulta710/net-ninja-react-context-and-hooks-tutorial",
+              "check": true
+            },
+            {
+              "type": "item",
+              "title": "net-ninja-react-router-in-depth",
+              "url": "https://github.com/kulta710/net-ninja-react-router-in-depth",
+              "check": true
+            },
+            {
+              "type": "item",
+              "title": "net-ninja-json-server-tutorial",
+              "url": "https://github.com/kulta710/net-ninja-json-server-tutorial",
+              "check": true
+            }
+          ]
+        },
+        {
+          "type": "branch",
+          "title": "node",
+          "items": [
+            {
+              "type": "item",
+              "title": "net-ninja-nodejs-crash-course-tutorial",
+              "url": "https://github.com/kulta710/net-ninja-nodejs-crash-course-tutorial",
+              "check": true
+            }
+          ]
+        },
+        {
+          "type": "branch",
+          "title": "javascript",
+          "items": [
+            {
+              "type": "item",
+              "title": "net-ninja-object-oriented-javascript",
+              "url": "https://github.com/kulta710/net-ninja-object-oriented-javascript",
+              "check": true
+            },
+            {
+              "type": "item",
+              "title": "net-ninja-asynchronous-javascript-2020-version",
+              "url": "https://github.com/kulta710/net-ninja-asynchronous-javascript-2020-version",
+              "check": true
+            },
+            {
+              "type": "item",
+              "title": "net-ninja-javascript-es6-tutorials",
+              "url": "https://github.com/kulta710/net-ninja-javascript-es6-tutorials",
+              "check": true
+            },
+            {
+              "type": "item",
+              "title": "chris-courses-html5-canvas-tutorials-for-beginners-become-a-canvas-pro",
+              "url": "https://github.com/kulta710/chris-courses-html5-canvas-tutorials-for-beginners-become-a-canvas-pro",
+              "check": false
+            }
+          ]
+        },
+        {
+          "type": "branch",
+          "title": "electron",
+          "items": [
+            {
+              "type": "item",
+              "title": "codevolution-electron-js-tutorials",
+              "url": "https://github.com/kulta710/codevolution-electron-js-tutorials",
+              "check": true
+            }
+          ]
+        },
+        {
+          "type": "branch",
+          "title": "mongodb",
+          "items": [
+            {
+              "type": "item",
+              "title": "net-ninja-complete-mongodb-tutorial",
+              "url": "https://github.com/kulta710/net-ninja-complete-mongodb-tutorial",
+              "check": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "branch",
+      "title": "github",
+      "items": [
+        {
+          "type": "item",
+          "title": "Do it! 지옥에서 온 문서 관리자 깃&깃허브 입문 [979-11-6303-122-2]",
+          "url": "https://github.com/kulta710/do-it-git-and-github-tutorial",
+          "check": false
+        }
+      ]
+    },
+    {
+      "type": "branch",
+      "title": "css",
+      "items": [
+        {
+          "type": "item",
+          "title": "net-ninja-css-grid-tutorial",
+          "url": "https://github.com/kulta710/net-ninja-css-grid-tutorial",
+          "check": true
+        }
+      ]
+    }
+  ]
+}
