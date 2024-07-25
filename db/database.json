@@ -4,6 +4,24 @@
   "items": [
     {
       "type": "branch",
+      "title": "java",
+      "items": [
+        {
+          "type": "item",
+          "title": "new-lecture-spring-boot-web-programming-tutorial",
+          "url": "https://github.com/kulta710/new-lecture-spring-boot-web-programming-tutorial",
+          "check": false
+        },
+        {
+          "type": "item",
+          "title": "my-spring-boot-server",
+          "url": "https://github.com/kulta710/my-spring-boot-server",
+          "check": false
+        }
+      ]
+    },
+    {
+      "type": "branch",
       "title": "javascript",
       "items": [
         {

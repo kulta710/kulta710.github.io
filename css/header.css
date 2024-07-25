@@ -1,0 +1,6 @@
+header {
+  grid-column: 1 / 9;
+  grid-row: 1 / 2;
+  background: lightgrey;
+  padding: 0.5em;
+}

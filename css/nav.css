@@ -1,0 +1,31 @@
+nav {
+  grid-column: 1 / 9;
+  grid-row: 2 / 3;
+  background: lightgrey;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav>ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav>ul>li {
+  list-style: none;
+  margin-right: 2em;
+  font-size: 1.5em;
+}
+
+nav>ul>li:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
