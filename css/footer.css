@@ -1,5 +1,5 @@
 footer {
-  grid-column: 1 / 9;
+  grid-column: 1 / 6;
   grid-row: 4 / 5;
   background: lightgrey;
 }

@@ -1,10 +1,14 @@
 main {
-  grid-column: 3 / 9;
+  grid-column: 2 / 6;
   grid-row: 3 / 4;
   background: lightgrey;
   padding: 0.5em;
-  overflow-y: scroll;
-  overflow-x: scroll;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.root-branch-box {
+  display: block;
 }
 
 .branch-box {
@@ -13,4 +17,21 @@ main {
 
 .branch-box a {
   display: block;
+}
+
+.art-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-container canvas {
+  background: white;
+  margin-bottom: 1em;
+}
+
+.art-container canvas:last-of-type {
+  margin-bottom: 0;
 }

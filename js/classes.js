@@ -9,10 +9,10 @@ class Circle {
     this._radius = this.radius
   }
 
-  draw (mouseX, mouseY, context) {
-    if (Math.abs(this.x - mouseX) < 100 && Math.abs(this.y - mouseY) < 100 && this.radius < this._radius * 7) {
+  draw (getBoundingClientRect, mouseX, mouseY, context) {
+    if (Math.abs(getBoundingClientRect.x + this.x - mouseX) < 100 && Math.abs(getBoundingClientRect.y + this.y - mouseY) < 100 && this.radius < this._radius * 7) {
       this.radius += 2
-    } else if ((Math.abs(this.x - mouseX) >= 100 || Math.abs(this.y - mouseY) >= 100) && this.radius > this._radius) {
+    } else if ((Math.abs(getBoundingClientRect.x + this.x - mouseX) >= 100 || Math.abs(getBoundingClientRect.y + this.y - mouseY) >= 100) && this.radius > this._radius) {
       this.radius -= 1
     }
 
@@ -23,8 +23,8 @@ class Circle {
     context.stroke()
   }
 
-  update (context, canvasWidth, canvasHeight, mouseX, mouseY) {
-    this.draw(mouseX, mouseY, context)
+  update (getBoundingClientRect, context, canvasWidth, canvasHeight, mouseX, mouseY) {
+    this.draw(getBoundingClientRect, mouseX, mouseY, context)
     
     if (this.x + this.radius > canvasWidth || this.x - this.radius < 0) this.dx *= (-1)
     if (this.y + this.radius > canvasHeight || this.y - this.radius < 0) this.dy *= (-1)

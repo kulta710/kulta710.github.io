@@ -1,13 +1,14 @@
 nav {
-  grid-column: 1 / 9;
+  grid-column: 1 / 6;
   grid-row: 2 / 3;
   background: lightgrey;
-  padding: 0.5em;
+  padding: 0 1em;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: flex-start;
+  font-size: 1.4em;
 }
 
 nav>ul {
@@ -16,12 +17,19 @@ nav>ul {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: flex-start;
+  height: 100%;
 }
 
 nav>ul>li {
   list-style: none;
-  margin-right: 2em;
-  font-size: 1.5em;
+  margin-right: 1em;
+  padding: 0 0.5em;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 nav>ul>li:hover {
